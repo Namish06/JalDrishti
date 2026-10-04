@@ -148,13 +148,4 @@ Open **[http://localhost:3000](http://localhost:3000)** in your browser.
 
 ---
 
-## 🎬 SIH Hackathon Presentation Demo Flow
 
-1. **Open JalDrishti Dashboard** (`http://localhost:3000`).
-2. **Bengaluru Sector Overview**: Observe the GIS map centered on Bengaluru showing monitored wards and baseline risk spectrum.
-3. **Multi-City Switch**: Change sector dropdown from **Bengaluru** to **Bhubaneswar** — observe smooth generic city filtering across map, risk matrix, and telemetry panels.
-4. **Locality Telemetry & SHAP Explanation**: Click **Nayapalli** or **Koramangala** — inspect elevation, drainage density, impervious area, and SHAP model attribution factors.
-5. **Forecast Horizon Scrubber**: Click timeline steps (`+1h`, `+3h`, `+6h`) to view temporal risk evolution.
-6. **Scenario Simulation Engine**: Select **90 mm** rainfall in the What-If Simulation panel — observe real ML inference update probabilities, raise risk tiers to **SEVERE**, highlight affected polygons, and flag simulation banners.
-7. **Citizen Incident Reporting**: Click **+ REPORT INCIDENT** in header — submit a localized report ("Water level 1.8ft near Ejipura Junction").
-8. **Admin / Government Command Center**: Navigate to **ADMIN CONTROL** (Passcode: `admin123`) — review unresolved alerts, verify citizen reports, and inspect **Recommended Emergency Intervention Zones** (dewatering pumps, barricades, rescue craft dispatch).
